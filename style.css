@@ -1,0 +1,57 @@
+h1 {
+    color: red;
+}
+
+#container {
+    background-color: azure;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap:5px;
+}
+
+#abilityScores {
+    background-color: white;
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:5px;
+}
+
+#abilityScoresTitle {
+    grid-column: 1/4;
+}
+
+#str {
+
+}
+
+#dex {
+
+}
+
+#con {
+
+} 
+
+#int {
+
+}
+
+#wis {
+
+}
+
+#cha {
+
+}
+
+#baseStats {
+    grid-column: 1/4;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
